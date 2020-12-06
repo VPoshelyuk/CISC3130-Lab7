@@ -27,7 +27,7 @@ git clone *PASTE THE LINK HERE*
 ```zsh 
 cd CISC3130-Lab7
 ```  
-5. When you are inside of the CISC3130-Lab6 directory, run the following command: 
+5. When you are inside of the CISC3130-Lab7 directory, run the following command: 
 ```zsh
 open index.html
 ```
