@@ -216,6 +216,7 @@ a, a:visited, a:hover, a:active {
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
+  background-color: azure;
   color: rgb(125, 125, 192);
   border-radius: 5px;
 }
@@ -226,7 +227,7 @@ a, a:visited, a:hover, a:active {
 }
 
 #sign {
-  margin-top: 178px;
+  margin-top: 150px;
   font-size: 12px;
 }
 
