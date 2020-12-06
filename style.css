@@ -226,12 +226,8 @@ a, a:visited, a:hover, a:active {
   color: azure;
 }
 
-#contact {
-  min-height: 108vh;
-}
-
 #sign {
-  margin-top: 160px;
+  margin-top: 155px;
   font-size: 12px;
 }
 
