@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Slava's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Sen&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/334e84692b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./font-mfizz/font-mfizz.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Slava Pashaliuk</h1>
+        <ul>
+          <li><a data-page="about" href="#about">About Me</a></li>
+          <li><a data-page="projects" href="#projects">Projects</a></li>
+          <li><a data-page="contact" href="#contact">Contact Me</a></li>
+          <div class="bubble"></div>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div id="cotton_tag">
+            <div id="cotton_tag_inner">
+              <p id="cotton_text">Slava Pashaliuk</p>
+              <p id="cotton_text_about">Senior at Brooklyn College</p>
+              <p id="cotton_text_about">Software Engineer at SevOne</p>
+              <div class='console-container'><span id='text'></span></div>
+              <div id="cotton_skills">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/viachaslau-pashaliuk/"><i class="fab fa-linkedin"></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/VPoshelyuk/"><i class="fab fa-github"></i></a>
+                <a href="mailto:v.pashaliuk@gmail.com"><i class="far fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-index="1" class="about" id="about">
+        <div class="main-box">
+          <h1>About Me</h1>
+          <div id="inner-about">
+            <div id="about-me-text">
+              <p>
+                Hi there! My name is Slava Pashaliuk and I am a Software Engineer based in Los Angeles, CA.
+              </p>
+              <br/>
+              <p>
+                Since early childhood I was passionate about computers and the fact how good are they at following instructions.
+                It was fascinating to me to see how machines are able to do so much by simply switching between 0's and 1's. And still is.
+              </p>
+              <br/>
+              <p>
+                My Computer Science journey is a bit irregular one, but this only means that I have more fun nerdy stories to tell.
+                Initially I started at College as most people that are in the field right now, but then I had to skip a year of school. While 
+                on the unplanned break I went through the Software Engineering bootcamp, found the internship next summer at SevOne Inc. and loved 
+                the place so much that I decided to stay there as a part-time Software Engineer, while finishing my last year 
+                of studying towards BS in Computer Science.
+              </p>
+            </div>
+            <div id="about-me-picture">
+              <img src="./public/images/profile_pic.jpg"/>
+            </div>
+          </div>
+          <br/>
+          <div id="skills">
+            <p>Tech Stack:</p>
+            <div id="skills-inner">
+              <div id="frontend" class="skills">
+                <p>Frontend:</p>
+                <br/>
+                <i class="icon-html5-alt">HTML5</i>
+                <i class="icon-css3">CSS3</i>
+                <i class="icon-reactjs"> React.js</i>
+              </div>
+              <div id="backend" class="skills">
+                <p>Backend:</p>
+                <br/>
+                <i class="icon-ruby-on-rails-alt">Rails</i>
+                <i class="icon-nodejs">Node.js</i>
+                <i class="icon-go">Go</i>
+              </div>
+              <div id="other-skills" class="skills">
+                <p>Languages:</p>
+                <br/>
+                <i class="icon-javascript">JavaScript</i>
+                <i class="icon-ruby">Ruby</i>
+                <i class="icon-cplusplus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-index="2" class="projects" id="projects">
+        <div class="main-box">
+          <h1>Projects</h1>
+          <div id="inner-projects">
+            <p id="projects-title">Latest projects I worked on:</p>
+            <br/><br/><br/>
+            <div class="project">
+              <div class="project-info">
+                <br/>
+                <h1>Meet Me</h1>
+                <br/>
+                <p>
+                  iOS app that allows users to create their digital business card 
+                  and share it with other users using NFC technology, app also has capability 
+                  to save users business cards in Apple Wallet.
+                </p>
+                <p>
+                  Google's Firebase is used for auth and storage purposes.
+                </p>
+                <br/>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/VPoshelyuk/MeetMe"><i class="fab fa-github"></i><p>GitHub link</p></a>
+              </div>
+              <div class="project-pic">
+                <img src="./public/images/projects/meetme.png"/>
+              </div>
+            </div>
+            <br/><br/><br/>
+            <div class="project2">
+              <div class="project-pic">
+                <img src="./public/images/projects/goplay.png"/>
+              </div>
+              <div class="project-info2">
+                <br/>
+                <h1>GoPlay</h1>
+                <br/>
+                <p>
+                  MeetUp for team sport events.
+                </p>
+                <p>
+                  Web-app that is using React.js on the frontend and Ruby on Rails on the backend. 
+                  Has a pretty complicated structure, so state managment was done with Redux.
+                </p>
+                <p>
+                  One of the features that I enjoyed implementing the most is user verification and notification 
+                  system that was developed using Twilio SMS API. 
+                </p>
+                <br/>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/VPoshelyuk/GoPlay_frontend"><i class="fab fa-github"></i><p>GitHub (frontend)</p></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/VPoshelyuk/GoPlay_backend"><i class="fab fa-github"></i><p>GitHub (backend)</p></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=l7AmkwLEdsQ&feature=youtu.be"><i class="fab fa-youtube"></i><p>Demo</p></a>
+              </div>
+            </div>
+            <br/><br/><br/>
+            <div class="project">
+              <div class="project-info">
+                <br/>
+                <h1>Hungry-Hungry Jeffs</h1>
+                <br/>
+                <p>
+                  Multilevel Hungry-Hungry-Hippo-like game featuring famous people named Jeff.
+                </p>
+                <p>
+                  Implemented using Vanilla JavaScript and Bootstrap. Has a tiny database that hold the 
+                  scores of the first 25 top player.
+                </p>
+                <br/>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/VPoshelyuk/hungry-hungry-jeffs-frontend"><i class="fab fa-github"></i><p>GitHub (frontend)</p></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/VPoshelyuk/hungry-hungry-jeffs-backend"><i class="fab fa-github"></i><p>GitHub (backend)</p></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=l7AmkwLEdsQ&feature=youtu.be"><i class="fab fa-youtube"></i><p>Demo</p></a>
+              </div>
+              <div class="project-pic">
+                <img src="./public/images/projects/hhjeffs.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-index="3" class="contact" id="contact">
+        <div class="main-box">
+          <h1>Contact Me</h1>
+          <div id="inner-about">
+            <div id="contact-me-text">
+              <p>
+                First things first, my resume can be found here
+              </p>
+              <button class="outlined-button" onclick="location.href='https://drive.google.com/file/d/1k5o-_l_CoT_qOwzFwMWyfN5kvRJSzZhe/view?usp=sharing'">Resume</button>
+              <p>
+                Not currently open for opportunities, but you can always contact me at one of the following places:
+              </p>
+              <br/>
+              <div id="cotton_skills" class="skills purple">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/viachaslau-pashaliuk/"><i class="fab fa-linkedin"></i><p>LinkedIn</p></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/VPoshelyuk/"><i class="fab fa-github"></i><p>GitHub</p></a>
+                <a href="mailto:v.pashaliuk@gmail.com"><i class="far fa-envelope"></i><p>Email</p></a>
+              </div>
+              <br/>
+              <p id="sign">
+                Developed by Slava Pashaliuk for CISC3130ⓒ
+              </p>
+            </div>
+        </div>
+      </section>
+    </main>
+      <script src="./src/animation.js"></script>
+  </body>
+</html>
